@@ -1,0 +1,22 @@
+site_name: Cuadratura Gaussiana
+
+  
+nav:
+  - Introduccion: index.md
+  - Teoría: explanation.md
+  - Ejemplo: tutorials.md
+  - Documentacion: reference.md
+
+plugins:
+  - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true  
+  - attr_list  
+  - md_in_html
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+theme:
+  name: material
