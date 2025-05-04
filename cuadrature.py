@@ -3,7 +3,7 @@
 """
 Cálculo de integrales mediante cuadratura Gaussiana.
 
-Este módulo implementa el método de cuadratura Gaussiana con polinomios de Legendre para aproximar integrales definidas
+Aqui se implementa el método de cuadratura Gaussiana con polinomios de Legendre para aproximar integrales definidas
 """
 
 import numpy as np
